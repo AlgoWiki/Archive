@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "author": "Bjarki Ágúst Guðmundsson <suprdewd@gmail.com>",
   "dependencies": {
+    "dateformat": "^5.0.3",
     "dotenv": "^16.0.3",
     "gatsby": "^5.3.3",
     "gatsby-source-s3": "^3.2.1",
