@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "author": "Bjarki Ágúst Guðmundsson <suprdewd@gmail.com>",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "gatsby": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
