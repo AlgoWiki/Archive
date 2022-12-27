@@ -6,6 +6,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "gatsby": "^5.3.3",
+    "gatsby-source-s3": "^3.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
