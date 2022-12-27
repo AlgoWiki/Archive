@@ -1,26 +1,17 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "algowiki-archive",
+  "description": "An archive of problems, test data and other resources from past programming contests.",
+  "version": "0.0.0",
+  "author": "Bjarki Ágúst Guðmundsson <suprdewd@gmail.com>",
   "dependencies": {
     "gatsby": "^5.3.3",
-    "gatsby-plugin-image": "^3.3.2",
-    "gatsby-plugin-manifest": "^5.3.1",
-    "gatsby-plugin-sharp": "^5.3.2",
-    "gatsby-source-filesystem": "^5.3.1",
-    "gatsby-transformer-sharp": "^5.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "prettier": "^2.8.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -32,9 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/AlgoWiki/Archive"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/AlgoWiki/Archive/issues"
   }
 }
