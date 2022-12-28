@@ -1,0 +1,11 @@
+name = "archive-indexer"
+main = "src/index.ts"
+compatibility_date = "2022-12-28"
+node_compat = true
+
+kv_namespaces = [
+  { binding = "KV", id = "0b42afd1f9954704a39f7c2aec7423b1", preview_id = "c547eec5d7d04b1da06bc26d036e88d3" }
+]
+
+[triggers]
+crons = [ "*/30 * * * *" ]
