@@ -24,7 +24,7 @@ const Index = ({ pageContext }) => {
           <React.Fragment key={directory.name}>
             <a href={directory.name + "/"}>{directory.name}/</a>
             {new Array(51 - directory.name.length).join(" ")}
-            {dateFormat(directory.lastModified, "dd-mmm-yyyy hh:MM")}
+            {dateFormat(directory.lastModified, "dd-mmm-yyyy HH:MM")}
             {new Array(20).join(" ")}
             {`-\n`}
           </React.Fragment>
@@ -33,7 +33,7 @@ const Index = ({ pageContext }) => {
           <React.Fragment key={file.name}>
             <a href={file.name}>{file.name}</a>
             {new Array(52 - file.name.length).join(" ")}
-            {dateFormat(file.lastModified, "dd-mmm-yyyy hh:MM")}
+            {dateFormat(file.lastModified, "dd-mmm-yyyy HH:MM")}
             {new Array(21 - String(file.size).length).join(" ")}
             {file.size}
             {`\n`}
