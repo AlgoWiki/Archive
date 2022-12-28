@@ -24,11 +24,16 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   for (const file of result.data.allS3Object.nodes) {
-    const parts = file.Key.split("/")
-    const lastModified = new Date(file.LastModified)
+    const path = file.Key
+    const parts = path.split("/")
     const fileName = parts[parts.length - 1]
+    const lastModified = new Date(file.LastModified)
 
-    if (fileName === "index.html" || fileName.indexOf(".") < 0) {
+    if (
+      path.match(/[,]/) ||
+      fileName === "index.html" ||
+      fileName.indexOf(".") < 0
+    ) {
       console.error(`Problematic filename: ${file.Key}`)
     }
 

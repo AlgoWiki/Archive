@@ -22,7 +22,7 @@ const Index = ({ pageContext }) => {
         {`\n`}
         {directories.map(directory => (
           <React.Fragment key={directory.name}>
-            <a href={directory.name}>{directory.name}/</a>
+            <a href={directory.name + "/"}>{directory.name}/</a>
             {new Array(51 - directory.name.length).join(" ")}
             {dateFormat(directory.lastModified, "dd-mmm-yyyy hh:MM")}
             {new Array(20).join(" ")}
