@@ -3,6 +3,10 @@ on:
     branches:
       - main
 
+  repository_dispatch:
+    types:
+      - webhook
+
 jobs:
   publish:
     runs-on: ubuntu-latest
