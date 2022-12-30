@@ -19,5 +19,14 @@ module.exports = {
         buckets: [process.env.S3_BUCKET],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-NM8H0HPWEM"],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
   ],
 }

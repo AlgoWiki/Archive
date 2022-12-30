@@ -4965,6 +4965,14 @@ gatsby-parcel-config@1.3.1:
     "@parcel/transformer-js" "2.8.1"
     "@parcel/transformer-json" "2.8.1"
 
+gatsby-plugin-google-gtag@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-5.3.0.tgz#b8cd845938e2b4fa78e262cbe843de1085789e02"
+  integrity sha512-anLuBM/tVhRZzrNqhOM0FnKiiAZzJYukl5XjaedWrgfNf5agRw1ZmYmiKsT4SIoo6MQmm8w0VZMuksQIEGS07w==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    minimatch "^3.1.2"
+
 gatsby-plugin-page-creator@^5.3.1:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-5.3.1.tgz#5b3928b65c53f4130b707d3b9637dcf9fbc4bd7c"
