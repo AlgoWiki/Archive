@@ -35,6 +35,10 @@ async function handleRequest(request: Request, env: Env) {
   if (pathname.match(FILE_RE)) {
     newUrl = env.B2_URL + pathname
   } else {
+    if (!pathname.endsWith('/')) {
+      url.pathname = url.pathname + '/';
+      return Response.redirect(url, 301);
+    }
     newUrl = env.PAGES_URL + pathname
   }
 
